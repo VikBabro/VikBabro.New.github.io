@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Quicksand-Regular";
+    src: url("../fonts/quicksand/Quicksand-Regular.woff2") format("woff2"),
+        url("../fonts/quicksand/Quicksand-Regular.woff") format("woff"),
+        url("../fonts/quicksand/Quicksand-Regular.ttf") format("ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Quicksand-Bold";
+    src: url("../fonts/quicksand/Quicksand-Bold.woff2") format("woff2"),
+        url("../fonts/quicksand/Quicksand-Bold.woff") format("woff"),
+        url("../fonts/quicksand/Quicksand-Bold.ttf") format("ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Economica-Bold";
+    src: url("../fonts/economica/Economica-Bold.woff2") format("woff2"),
+        url("../fonts/economica/Economica-Bold.woff") format("woff"),
+        url("../fonts/quicksand/Quicksand-Regular.ttf") format("ttf");
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Economica-Regular";
+    src: url("../fonts/economica/Economica-Regular.woff2") format("woff2"),
+        url("../fonts/economica/Economica-Regular.woff") format("woff"),
+        url("../fonts/economica/Economica-Regular.ttf") format("ttf");
+    font-display: swap;
+}
+
+body {
+    font-family: "Quicksand-Regular", sans-serif;
+    font-size: 20px;
+    color: #444645;
+}
+
+.wrapper {
+    max-width: 1265px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-title h2, h3 {
+    margin: 0 0 35px;
+    font-family: "Economica-Bold", sans-serif;  
+    font-size: 50px;
+    color: #dd991d;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+span {
+    color: #fff;
+}
+
+.section-title span {
+    text-transform: uppercase;
+    color: #0a0a08;
+}
+
+.buttons-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 33px;
+}
+
+.buttons-menu button {
+    width: 191px;
+    height: 41px;
+    border-radius: 4px;
+    line-height: 0;
+    border: solid 2px #facb36;
+    background-color: transparent;
+    line-height: 0.9px;
+    color: #faca36;
+    text-decoration: none;
+    cursor: pointer;    
+    line-height: 0.8;
+
+}
+
+.buttons-menu .active {
+    background-color: #facb36;
+    border: solid 2px #facb36;
+    color: #fff;
+}
+
+.buttons-menu button:hover {
+    background-color: #facb36;
+    color: #fff;
+}
+
+.buttons-menu button:nth-child(even) {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.section-title p {
+    line-height: 19px;
+    text-align: center;
+    color: #444645;
+}
+
+
+.about-item {
+    font-family: "Quicksand-Regular", sans-serif;  
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #444645;
+    margin-top: 5px;
+}
+
+button:focus {
+    outline: none;
+    -webkit-box-shadow: 0 0 0 1px #facb36;
+            box-shadow: 0 0 0 1px #facb36;;
+}
+
+.section-title h6 {
+    margin: 0 0 35px;
+    font-family: "Economica-Bold", sans-serif;  
+    font-size: 50px;
+    color:#0a0a08;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-title h6 span {
+    color: white;
+}
